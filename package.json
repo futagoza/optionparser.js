@@ -1,0 +1,32 @@
+{
+    "name": "optionparser",
+    "version": "0.1.0-alpha",
+    "description": "Yet another command line parser",
+    "keywords": [
+        "option",
+        "argv",
+        "command",
+        "line",
+        "parser"
+    ],
+    "repository": "futagoza/optionparser.js",
+    "bugs": "https://github.com/futagoza/optionparser.js/issues",
+    "license": "MIT",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "main": "lib/optionparser.js",
+    "scripts": {
+        "build": "babel src -d lib",
+        "lint": "eslint --cache src",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "eslint": "4.2.0",
+        "eslint-config-futagozaryuu": "3.3.0",
+        "jest": "20.0.4",
+        "babel-cli": "7.0.0-alpha.12",
+        "babel-preset-futagozaryuu": "2.3.0-alpha.2"
+    },
+    "engines": {
+        "node": ">= 4"
+    }
+}
