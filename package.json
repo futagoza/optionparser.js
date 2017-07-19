@@ -13,6 +13,9 @@
     "bugs": "https://github.com/futagoza/optionparser.js/issues",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "files": [
+        "lib"
+    ],
     "main": "lib/optionparser.js",
     "scripts": {
         "build": "babel src -d lib",
